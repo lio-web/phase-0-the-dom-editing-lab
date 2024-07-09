@@ -24,7 +24,7 @@ element.className = "pet-listing dog";
 element.classList.remove("dog");
 element.classList.add("cat", "sale");
 someElement.removeChild(someChildElement);
-const ul = document.getElementsByTagName("ul")[0];
+//const ul = document.getElementsByTagName("ul")[0];
 const secondChild = ul.querySelector("li:nth-child(2)");
 ul.removeChild(secondChild);
 
